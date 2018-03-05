@@ -1,5 +1,5 @@
 #ifdef _MSC_VER
-	#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #endif
 #include <boost/multiprecision/cpp_int.hpp>
 #include <random>
@@ -53,7 +53,7 @@ public:
 		cashed = true;
 	}
 private:
-	int				*data;
+	int		*data;
 	mutable double	cashed_value;
 	mutable bool	cashed;
 };
